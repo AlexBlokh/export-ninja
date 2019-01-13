@@ -5,7 +5,8 @@ Each request has to contain an `?:access_token` query param. To obtain `access_t
 Each request has a `usage` amount for your items balance.
 
 ### List of available methods
-* [GET /feed/:username?:limit](#get-user-feed)
+* [Profile Feed](#get-user-feed)
+* [Export Comments](#get-user-feed)
 
 #### Profile feed
 GET /feed/:username?:limit  
