@@ -32,8 +32,10 @@ GET /feed/:username?:limit
 ```
 
 #### Export comments
+Exports Instagram post comments and provides you with json response.  
+For https://www.instagram.com/p/BsgvW3NFXj5/ `shortCode` is going to be `BsgvW3NFXj5`  
 GET /comments?:shortCode  
-`:shortCode` - instagram post shortcode from url. For https://www.instagram.com/p/BsgvW3NFXj5/ - it's going to be **BsgvW3NFXj5**  
+`:shortCode` - instagram post shortcode from url.  
 `usage=numComments + 50*(video/sidecar post count)`
 
 ```
